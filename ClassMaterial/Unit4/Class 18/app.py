@@ -11,7 +11,7 @@ import numpy as np
 import plotly.express as px
 import pickle
 
-st.title("Understanding Kickstarter Campaigns")
+st.title("Understanding Kickstarter Campaigns -- With Changes")
 
 @st.cache
 def load_data(nrows = 1000):
